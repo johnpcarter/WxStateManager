@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">wx.statemanager.priv</value>
+  <value name="node_pkg">WxStateManager</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">Cgpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9URVJSQUNPVFRBX1NFUlZFUiA9ICJXTV9U
+RVJSQUNPVFRBX1NFUlZFUl9VUkkiOwpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9TVEFU
+RV9DSEVDS19JTlRFUlZBTCA9ICJXTV9TVEFURV9DSEVDS0VSX0lOVEVSVkFMIjsKCnByaXZhdGUg
+c3RhdGljIEFxdWlyZXJGb3JBbGxTY2hlZHVsZWRKb2JzIHNjaGVkdWxlTWdyID0gbnVsbDs=</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.util.ArrayList</value>
+    <value>java.util.List</value>
+    <value>com.ibm.webmethods.is.statemgmt.ListenerCoordinator</value>
+    <value>com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllScheduledJobs</value>
+    <value>com.softwareag.util.IDataMap</value>
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+  </array>
+</Values>
