@@ -49,14 +49,14 @@ public final class priv
 		String checkInterval = (String) System.getenv(ENV_VAR_STATE_CHECK_INTERVAL);
 		String instanceName = ServerAPI.getServerName();
 		
+		System.out.println("******** " + ENV_VAR_STATE_CHECK_INTERVAL + "=" + checkInterval);
+		
 		if (terracottaServer == null) {
 			terracottaServer = "terracotta://localhost:9410";
 		} else {
 			terracottaServer = "terracotta://" + terracottaServer;
 		}
-		
-		System.out.println("******** " + ENV_VAR_STATE_CHECK_INTERVAL + "=" + checkInterval);
-		
+				
 		if (checkIntervalLong == -1 && checkInterval != null) {
 			try { checkIntervalLong = Long.parseLong(checkInterval); } catch(Exception e) {}
 		}
