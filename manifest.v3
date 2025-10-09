@@ -15,7 +15,7 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">10</value>
+  <value name="build">11</value>
   <value name="description">Provides state management (via a terracotta server) when running replicas, to ensure assets
 such as scheduler, listeners and message triggers are only enabled
 in a single instance to avoid duplicate processing.</value>
