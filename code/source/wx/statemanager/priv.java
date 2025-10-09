@@ -55,6 +55,8 @@ public final class priv
 			terracottaServer = "terracotta://" + terracottaServer;
 		}
 		
+		System.out.println("******** " + ENV_VAR_STATE_CHECK_INTERVAL + "=" + checkInterval);
+		
 		if (checkIntervalLong == -1 && checkInterval != null) {
 			try { checkIntervalLong = Long.parseLong(checkInterval); } catch(Exception e) {}
 		}
@@ -83,6 +85,11 @@ public final class priv
 		// --- <<IS-START(getScheduledJobs)>> ---
 		// @sigtype java 3.5
 		// [o] record:1:required jobs
+		// [o] - field:0:required oid
+		// [o] - field:0:required name
+		// [o] - field:0:required type {"complex","repeat"}
+		// [o] - object:0:required isOwner
+		// [o] - object:0:required execState
 		List<IData> jobs = scheduleMgr.getScheduledJobs();
 		new IDataMap(pipeline).put("jobs", jobs.toArray(new IData[jobs.size()]));
 		// --- <<IS-END>> ---
