@@ -7,10 +7,8 @@ import com.wm.util.Values;
 import com.wm.app.b2b.server.Service;
 import com.wm.app.b2b.server.ServiceException;
 // --- <<IS-START-IMPORTS>> ---
-import java.util.ArrayList;
 import java.util.List;
-import com.ibm.webmethods.is.statemgmt.ListenerCoordinator;
-import com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllScheduledJobs;
+import com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllSchedulers;
 import com.softwareag.util.IDataMap;
 import com.wm.app.b2b.server.ServerAPI;
 // --- <<IS-END-IMPORTS>> ---
@@ -46,23 +44,19 @@ public final class priv
 		}
 		
 		String terracottaServer = (String) System.getenv(ENV_VAR_TERRACOTTA_SERVER);
-		String checkInterval = (String) System.getenv(ENV_VAR_STATE_CHECK_INTERVAL);
 		String instanceName = ServerAPI.getServerName();
 		
-		System.out.println("******** " + ENV_VAR_STATE_CHECK_INTERVAL + "=" + checkInterval);
 		
 		if (terracottaServer == null) {
 			terracottaServer = "terracotta://localhost:9410";
 		} else {
 			terracottaServer = "terracotta://" + terracottaServer;
 		}
-				
-		if (checkIntervalLong == -1 && checkInterval != null) {
-			try { checkIntervalLong = Long.parseLong(checkInterval); } catch(Exception e) {}
-		}
+		
+		System.out.println("******** " + ENV_VAR_TERRACOTTA_SERVER + "=" + terracottaServer);
 				
 		try {
-			 scheduleMgr = new AquirerForAllScheduledJobs(terracottaServer, instanceName, checkIntervalLong);
+			 scheduleMgr = new AquirerForAllSchedulers(terracottaServer, instanceName);
 		} catch (Exception e) {
 			throw new ServiceException(e);
 		}
@@ -114,9 +108,8 @@ public final class priv
 	
 	
 	private static String ENV_VAR_TERRACOTTA_SERVER = "WM_TERRACOTTA_SERVER_URI";
-	private static String ENV_VAR_STATE_CHECK_INTERVAL = "WM_STATE_CHECKER_INTERVAL";
 	
-	private static AquirerForAllScheduledJobs scheduleMgr = null;
+	private static AquirerForAllSchedulers scheduleMgr = null;
 	// --- <<IS-END-SHARED>> ---
 }
 

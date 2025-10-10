@@ -8,17 +8,14 @@
   <value name="is_public">false</value>
   <value name="encodeutf8">true</value>
   <value name="shared">Cgpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9URVJSQUNPVFRBX1NFUlZFUiA9ICJXTV9U
-RVJSQUNPVFRBX1NFUlZFUl9VUkkiOwpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9TVEFU
-RV9DSEVDS19JTlRFUlZBTCA9ICJXTV9TVEFURV9DSEVDS0VSX0lOVEVSVkFMIjsKCnByaXZhdGUg
-c3RhdGljIEFxdWlyZXJGb3JBbGxTY2hlZHVsZWRKb2JzIHNjaGVkdWxlTWdyID0gbnVsbDs=</value>
+RVJSQUNPVFRBX1NFUlZFUl9VUkkiOwoKcHJpdmF0ZSBzdGF0aWMgQXF1aXJlckZvckFsbFNjaGVk
+dWxlcnMgc2NoZWR1bGVNZ3IgPSBudWxsOw==</value>
   <value name="extends"></value>
   <array name="implements" type="value" depth="1">
   </array>
   <array name="imports" type="value" depth="1">
-    <value>java.util.ArrayList</value>
     <value>java.util.List</value>
-    <value>com.ibm.webmethods.is.statemgmt.ListenerCoordinator</value>
-    <value>com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllScheduledJobs</value>
+    <value>com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllSchedulers</value>
     <value>com.softwareag.util.IDataMap</value>
     <value>com.wm.app.b2b.server.ServerAPI</value>
   </array>
