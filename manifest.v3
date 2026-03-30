@@ -6,6 +6,8 @@
   <value name="version">1.0</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="wx.statemanager.priv:aquireOwnershipForScheduledJobs"/>
+    <null name="wx.statemanager.priv:aquireOwnershipForAllARTListeners"/>
+    <null name="wx.statemanager.priv:aquireOwnershipForAllCloudStreamsListeners"/>
   </record>
   <record name="shutdown_services" javaclass="com.wm.util.Values">
     <null name="wx.statemanager.priv:shutdown"/>
@@ -38,5 +40,6 @@ in a single instance to avoid duplicate processing.</value>
       <value name="value">state,terracotta,scheduler,listener,trigger</value>
     </record>
   </array>
-  <value name="target_server_version">11.1</value>
+  <null name="target_server_version"/>
+  <value name="name">WxStateManager</value>
 </Values>

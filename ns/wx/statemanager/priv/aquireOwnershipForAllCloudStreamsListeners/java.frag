@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">aquireOwnershipForAllCloudStreamsListeners</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">U3RyaW5nIGluc3RhbmNlTmFtZSA9IFNlcnZlckFQSS5nZXRTZXJ2ZXJOYW1lKCk7CgkJCQkKdHJ5
+IHsKCVByb3ZpZGVyQ29ubmVjdGlvbkZhY3Rvcnk8Y29tLmlibS53ZWJtZXRob2RzLmlzLnN0YXRl
+bWdtdC5jbG91ZHN0cmVhbXMuTGlzdGVuZXJBcXVpcmVyPiBwID0gZGV0ZXJtaW5lUHJvdmlkZXIo
+KTsKCWNzTWdyID0gbmV3IEFxdWlyZXJGb3JBbGxDU0xpc3RlbmVycyhwLCBpbnN0YW5jZU5hbWUp
+Owp9IGNhdGNoIChFeGNlcHRpb24gZSkgewoJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24oZSk7
+Cn0KCi8vIG91dHB1dAoKTGlzdDxJRGF0YT4gam9icyA9IGNzTWdyLmdldE1hbmFnZWRKb2JzKCk7
+CgpuZXcgSURhdGFNYXAocGlwZWxpbmUpLnB1dCgiam9icyIsIGpvYnMudG9BcnJheShuZXcgSURh
+dGFbam9icy5zaXplKCldKSk7</value>
+</Values>

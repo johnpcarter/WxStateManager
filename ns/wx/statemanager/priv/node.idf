@@ -7,15 +7,57 @@
   <value name="node_pkg">WxStateManager</value>
   <value name="is_public">false</value>
   <value name="encodeutf8">true</value>
-  <value name="shared">Cgpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9URVJSQUNPVFRBX1NFUlZFUiA9ICJXTV9U
-RVJSQUNPVFRBX1NFUlZFUl9VUkkiOwoKcHJpdmF0ZSBzdGF0aWMgQXF1aXJlckZvckFsbFNjaGVk
-dWxlcnMgc2NoZWR1bGVNZ3IgPSBudWxsOw==</value>
+  <value name="shared">CnByaXZhdGUgc3RhdGljIFN0cmluZyBFTlZfVkFSX1JFRElTX1NFUlZFUiA9ICJXTV9TVEFURU1H
+Ul9SRURJU19TRVJWRVIiOwpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9SRURJU19QT1JU
+ID0gIldNX1NUQVRFTUdSX1JFRElTX1BPUlQiOwpwcml2YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZB
+Ul9JR05JVEVfRU5EUE9JTlRTID0gIldNX1NUQVRFTUdSX0lHTklURV9FTkRQT0lOVFMiOwpwcml2
+YXRlIHN0YXRpYyBTdHJpbmcgRU5WX1ZBUl9URVJSQUNPVFRBX1NFUlZFUiA9ICJXTV9TVEFURU1H
+Ul9URVJSQUNPVFRBX1NFUlZFUl9VUkkiOwovL3ByaXZhdGUgc3RhdGljIFN0cmluZyBFTlZfU1RB
+VEVfQ0hFQ0tFUl9JTlRFUlZBTCA9ICJXTV9TVEFURU1HUl9DSEVDS0VSX0lOVEVSVkFMIjsgLy8g
+bW92ZWQgdG8gSm9iQ2hlY2tlciBjbGFzcwoKcHJpdmF0ZSBzdGF0aWMgQXF1aXJlckZvckFsbFNj
+aGVkdWxlcnMgc2NoZWR1bGVNZ3IgPSBudWxsOwpwcml2YXRlIHN0YXRpYyBBcXVpcmVyRm9yQWxs
+VHJpZ2dlckpvYnMgdHJpZ2dlck1nciA9IG51bGw7CnByaXZhdGUgc3RhdGljIEFxdWlyZXJGb3JB
+bGxBUlRMaXN0ZW5lcnMgYXJ0TWdyID0gbnVsbDsKcHJpdmF0ZSBzdGF0aWMgQXF1aXJlckZvckFs
+bENTTGlzdGVuZXJzIGNzTWdyID0gbnVsbDsKCQpwcml2YXRlIHN0YXRpYyA8VCBleHRlbmRzIEFx
+dWlyZXI+IFByb3ZpZGVyQ29ubmVjdGlvbkZhY3Rvcnk8VD4gZGV0ZXJtaW5lUHJvdmlkZXIoKSB0
+aHJvd3MgU2VydmljZUV4Y2VwdGlvbiB7CgkKCVN0cmluZyB0ZXJyYWNvdHRhU2VydmVyID0gKFN0
+cmluZykgU3lzdGVtLmdldGVudihFTlZfVkFSX1RFUlJBQ09UVEFfU0VSVkVSKTsJCglTdHJpbmcg
+cmVkaXNTZXJ2ZXIgPSAoU3RyaW5nKSBTeXN0ZW0uZ2V0ZW52KEVOVl9WQVJfUkVESVNfU0VSVkVS
+KTsJCQoJU3RyaW5nIGlnbml0ZUVuZHBvaW50cyA9IChTdHJpbmcpIFN5c3RlbS5nZXRlbnYoRU5W
+X1ZBUl9JR05JVEVfRU5EUE9JTlRTKTsJCQoKCVByb3ZpZGVyQ29ubmVjdGlvbkZhY3Rvcnk8VD4g
+cHJvdmlkZXIgPSBudWxsOwoJCglpZiAocmVkaXNTZXJ2ZXIgIT0gbnVsbCkgewoJCQoJCVN0cmlu
+ZyByZWRpc1BvcnQgPSBTeXN0ZW0uZ2V0ZW52KEVOVl9WQVJfUkVESVNfUE9SVCk7CQkKCgkJcHJv
+dmlkZXIgPSBuZXcgUmVkaXNQcm92aWRlcjxUPihyZWRpc1NlcnZlciwgcmVkaXNQb3J0ICE9IG51
+bGwgPyBJbnRlZ2VyLnBhcnNlSW50KHJlZGlzUG9ydCkgOiAtMSk7CgkJCgl9IGVsc2UgaWYgKGln
+bml0ZUVuZHBvaW50cyAhPSBudWxsKSB7CgkJCgkJU3RyaW5nW10gZW5kcG9pbnRzID0gaWduaXRl
+RW5kcG9pbnRzLnNwbGl0KCIsIik7CgkJaW50IHRpbWVvdXRJblNlY29uZHMgPSAzMDsKCQlpbnQg
+aGVhcnRiZWF0SW50ZXJ2YWxJbk1pbGxpc2Vjb25kcyA9IDMwMDAwOwoJCWludCByZXRyeUNvdW50
+ID0gMzsKCQkKCQlwcm92aWRlciA9IG5ldyBJZ25pdGVQcm92aWRlcjxUPihlbmRwb2ludHMsIHRp
+bWVvdXRJblNlY29uZHMsIGhlYXJ0YmVhdEludGVydmFsSW5NaWxsaXNlY29uZHMsIHJldHJ5Q291
+bnQpOwoKCX0gZWxzZSBpZiAodGVycmFjb3R0YVNlcnZlciAhPSBudWxsKSB7CgkJdGVycmFjb3R0
+YVNlcnZlciA9ICJ0ZXJyYWNvdHRhOi8vIiArIHRlcnJhY290dGFTZXJ2ZXI7CgkJLy90ZXJyYWNv
+dHRhU2VydmVyID0gInRlcnJhY290dGE6Ly9sb2NhbGhvc3Q6OTQxMCI7CgkJCgkJU3lzdGVtLm91
+dC5wcmludGxuKCIqKioqKioqKiAiICsgRU5WX1ZBUl9URVJSQUNPVFRBX1NFUlZFUiArICI9IiAr
+IHRlcnJhY290dGFTZXJ2ZXIpOwoJCQoJCXByb3ZpZGVyID0gbmV3IFRlcnJhY290dGFQcm92aWRl
+cjxUPih0ZXJyYWNvdHRhU2VydmVyKTsKCQkKCX0gZWxzZSB7CgkJdGhyb3cgbmV3IFNlcnZpY2VF
+eGNlcHRpb24oIk5vIHZhbGlkIHByb3ZpZGVyIHByb3BlcnRpZXMgZ2l2ZW4sIHBsZWFzZSBzZXQg
+dGhlbSB2aWEgdGhlIGVudmlyb25tZW50ISEiKTsKCX0KCQoJcmV0dXJuIHByb3ZpZGVyOwp9</value>
   <value name="extends"></value>
   <array name="implements" type="value" depth="1">
   </array>
   <array name="imports" type="value" depth="1">
     <value>java.util.List</value>
+    <value>com.ibm.webmethods.is.statemgmt.Aquirer</value>
+    <value>com.ibm.webmethods.is.statemgmt.JobCollectionManager.ProviderConnectionFactory</value>
+    <value>com.ibm.webmethods.is.statemgmt.cloudstreams.AquirerForAllCSListeners</value>
+    <value>com.ibm.webmethods.is.statemgmt.connectors.AquirerForAllARTListeners</value>
+    <value>com.ibm.webmethods.is.statemgmt.providers.IgniteJobCoordinator.IgniteProvider</value>
+    <value>com.ibm.webmethods.is.statemgmt.providers.RedisJobCoordinator.RedisProvider</value>
+    <value>com.ibm.webmethods.is.statemgmt.providers.TerracottaJobCoordinator.TerracottaProvider</value>
     <value>com.ibm.webmethods.is.statemgmt.scheduler.AquirerForAllSchedulers</value>
+    <value>com.ibm.webmethods.is.statemgmt.scheduler.SchedulerAquirer</value>
+    <value>com.ibm.webmethods.is.statemgmt.triggers.AquirerForAllTriggerJobs</value>
+    <value>com.ibm.webmethods.is.statemgmt.triggers.TriggerAquirer</value>
     <value>com.softwareag.util.IDataMap</value>
     <value>com.wm.app.b2b.server.ServerAPI</value>
   </array>
